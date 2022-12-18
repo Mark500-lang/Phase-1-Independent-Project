@@ -1,0 +1,27 @@
+#main{
+    background-color: #22333b;
+}
+#chooseBreed{
+    max-width: 300px;
+    background-color: rgba(63, 165, 42, 0.568);
+} 
+#inputBreed{
+    
+}   
+#breedBtn{
+    padding-top: 5px;
+}
+
+#card{
+    max-width: 400px;
+    background-color: rgba(216, 86, 77, 0.247);
+}
+#dogImg{
+    max-width: 400px;
+    max-height: fit-content;
+}
+#likeBtn{
+    color: rgba(255, 17, 0, 0.815);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
