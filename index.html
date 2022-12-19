@@ -10,10 +10,10 @@
     </head>
     <body class="main">
         <div id="main" >
-            <h1>Dog Image Generator</h1>
+            <h1>Dog Image Generator <i class="fa-solid fa-dog"></i></h1>
             <section id="chooseBreed" class="container mt-xl-4 pt-4">
                 <div>
-                    <label>Search Dog Breed: </label>
+                    <label for="selectBreed">Search Dog Breed: </label>
                     <select  name="dogBreed" id="selectBreed">
                         <option value="any" selected="">Any</option>
                         <option value="husky" selected="">Husky</option>
@@ -24,12 +24,12 @@
                         <option value="dane/great" selected="">Great Dane</option>
                         <option value="labrador" selected="">Labrador</option>
                         <option value="doberman" selected="">Doberman</option>
-                        <option value="any" selected="">Any</option>
-                        <option value="any" selected="">Any</option>
+                        <option value="pitbull" selected="">Pitbull</option>
+                        <option value="african" selected="">African</option>
                     </select>
                 </div>
                 <div>
-                    <button id="breedBtn">Fetch Image</button>
+                    <button id="breedBtn">Fetch Image <i class="fa-solid fa-paw"></i></button>
                 </div>
             </section>
             <div id="card" class="container mt-xl-4 pt-4">
@@ -41,5 +41,6 @@
                 </div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
