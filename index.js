@@ -1,4 +1,14 @@
-var name = 'golden retriever'
+const name = document.getElementById("inputBreed");
+const dogName = document.getElementById("dogTitle");
+const image = document.getElementById("dogImg");
+const likes = document.getElementById("likesCount");
+console.log(dogName);
+
+
+
+
+
+/*var name = 'golden retriever'
 $.ajax({
     method: 'GET',
     url: 'https://api.api-ninjas.com/v1/dogs?name=' + name,
@@ -10,4 +20,4 @@ $.ajax({
     error: function ajaxError(jqXHR) {
         console.error('Error: ', jqXHR.responseText);
     }
-});
+});*/

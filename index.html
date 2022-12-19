@@ -10,14 +10,31 @@
     </head>
     <body class="main">
         <div id="main" >
-            <form id="chooseBreed" class="container mt-xl-4 pt-4">
-                <input type="text" id="inputBreed">
-                <hr>
-                <button id="breedBtn">See Image</button>
-            </form>
+            <h1>Dog Image Generator</h1>
+            <section id="chooseBreed" class="container mt-xl-4 pt-4">
+                <div>
+                    <label>Search Dog Breed: </label>
+                    <select  name="dogBreed" id="selectBreed">
+                        <option value="any" selected="">Any</option>
+                        <option value="husky" selected="">Husky</option>
+                        <option value="chihuahua" selected="">Chihuahua</option>
+                        <option value="collie/border" selected="">Border Collie</option>
+                        <option value="retriever/golden" selected="">Golden Retriever</option>
+                        <option value="chow" selected="">Chow</option>
+                        <option value="dane/great" selected="">Great Dane</option>
+                        <option value="labrador" selected="">Labrador</option>
+                        <option value="doberman" selected="">Doberman</option>
+                        <option value="any" selected="">Any</option>
+                        <option value="any" selected="">Any</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="breedBtn">Fetch Image</button>
+                </div>
+            </section>
             <div id="card" class="container mt-xl-4 pt-4">
-                <h4 id="dogTitle" class="text-muted">Dog Breed</h4>
-                <img id="dogImg" class="rounded" src="img/puppy.jpeg" alt="Dog Image">
+                <h4 id="dogTitle" class="text-muted text-uppercase">Dog Breed</h4>
+                <img id="dogImg" class="rounded" src="img/dog 4.jpeg" alt="Dog Image">
                 <div>
                     <i id="likeBtn" class="fa-solid fa-heart fa-bounce  fa-2xl"></i>
                     <p class="likesCount"><span id="likesCount">[X]</span> likes</p>
