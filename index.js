@@ -7,7 +7,7 @@ var dog  = 'golden retriever'
 
 $.ajax({
     method: 'GET',
-    url: 'https://api.api-ninjas.com/v1/dogs?name=' + name,
+    url: 'https://api.api-ninjas.com/v1/dogs?name=' + dog,
     headers: { 'X-Api-Key': 'live_ns0Z6Hxx6sjhdboz3RoUYTYue9HkkpcVTnx0CYMsYaGaWZVJk2aQzIhk7qj7ReCX'},
     contentType: 'application/json',
     success: function(result) {
