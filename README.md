@@ -32,8 +32,7 @@ Then run server with the above command	Then run server with the above command
 1. HTML	1. HTML
 2. CSS	2. CSS
 3. JavaScript	3. JavaScript
-4. ! font awesome == (https://kit.fontawesome.com/02bea9d4cd.js)
-5. ! Bootsrap == (https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css)
+
 *****	*****
 ## Contact Information	## Contact Information
 * Email : markkantet@gmail.com	* Email : markkantet@gmail.com
