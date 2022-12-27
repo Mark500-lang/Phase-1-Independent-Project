@@ -5,7 +5,7 @@ Dog breeds Image Generator
 Name: Mark Kantet Sangiriaki  19/12/2022
 
 ## Project Description
-- it is a website dedicated to dog lovers, sorry cat people. The can select a dog breed from the dropdown menu and the program will render an image of the dog with information about the breed. The user can then like the image.
+- it is a webpage dedicated to dog lovers, sorry cat people. They can select a dog breed from the dropdown menu and the program will render an image of the dog with information about the breed. The user can then like the image.
    
 ********	
 ## SCREENSHOTS	
