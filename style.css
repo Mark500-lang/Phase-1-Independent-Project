@@ -3,7 +3,7 @@
     background-color: rgb(0, 0, 0, 0.5);
     background-size: cover;
     background-blend-mode: darken;
-    animation: change 50s infinite ease-in-out;
+    animation: change 30s infinite ease-in-out;
 }
 h1{
     text-align: center;
