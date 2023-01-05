@@ -11,7 +11,7 @@
     <body class="main">
         <div id="main" >
             <h1>Dog Image Generator <i class="fa-solid fa-dog"></i></h1>
-            <form id="chooseBreed" class="container mt-xl-4 pt-4">
+            <form id="chooseBreed"  class="container mt-xl-4 pt-4">
                 <div>
                     <label for="selectBreed">Search Dog Breed: </label>
                     <select  name="dogBreed" id="selectBreed">
@@ -35,6 +35,14 @@
             <div id="card" class="container mt-xl-4 pt-4">
                 <h4 id="dogTitle" class="text-muted text-uppercase">Dog Breed</h4>
                 <img id="dogImg" class="rounded" src="img/dog 4.jpeg" alt="Dog Image">
+                <div class="dogBreedInfo">
+                    <p>Life Expectancy ~ <span id="lifeExpectancy">[X]</span> years</p>
+                    <p>Average Weight Male ~ <span id="weightMale">[X]</span> pounds</p>
+                    <p>Average Weight Female ~ <span id="weightFemale">[X]</span> pounds</p>
+                    <p>Coat Length ~ <span id="coatLength">[X]</span></p>
+                    <p>Shedding ~ <span id="shedding">[X]</span></p>  
+                    <p>Trainability ~ <span id="trainability">[X]</span></p>               
+                </div>
                 <div>
                     <i id="likeBtn" class="fa-solid fa-heart fa-bounce  fa-2xl"></i>
                     <p class="likesCount"><span id="likesCount">[X]</span> likes</p>
